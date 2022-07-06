@@ -1,0 +1,66 @@
+.NavBar {
+  margin-top: 25px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container-navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+
+    .rigth-nav {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .search {
+        input {
+          border: none;
+          height: 23px;
+          outline: none;
+          background-color: white;
+          border-radius: 7px;
+        }
+
+        display: flex;
+        align-items: center;
+        background-color: white;
+        height: 28px;
+        border-radius: 7px;
+      }
+
+      .menu-burger {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ebe5f6;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .point-one {
+          width: 5px;
+          height: 20px;
+          margin: 3px;
+
+          span {
+            content: "";
+            display: block;
+            width: 4px;
+            height: 4px;
+            background-color: black;
+            border-radius: 50%;
+          }
+          span:nth-child(2) {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
